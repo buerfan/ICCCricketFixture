@@ -14,7 +14,8 @@
         android:layout_alignBaseline="@+id/txtMatch1"
         android:baselineAlignBottom="true"
         android:src="@drawable/match1"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        />
 
     <TextView
         android:id="@+id/txtMatch1"

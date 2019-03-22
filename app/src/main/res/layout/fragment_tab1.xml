@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab1">
+
+
+    <ImageView
+        android:id="@+id/imageViewMatch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtMatch1"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/match1"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/txtMatch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewMatch1"
+        android:text="ENG"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageViewMatch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMatch1"
+        android:layout_marginTop="20dp"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/match1"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/txtMatch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMatch1"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageViewMatch2"
+        android:text="SA"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"/>
+
+</RelativeLayout>

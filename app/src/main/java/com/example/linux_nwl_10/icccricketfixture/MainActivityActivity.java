@@ -7,6 +7,9 @@ import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
@@ -20,6 +23,8 @@ public class MainActivityActivity extends AppCompatActivity implements Tab1.OnFr
         setContentView(R.layout.main_activity);
 
         final TabLayout tabLayout=findViewById(R.id.tablayout);
+
+
 
         tabLayout.addTab(tabLayout.newTab().setText("Matches"));
         tabLayout.addTab(tabLayout.newTab().setText("News"));
@@ -50,7 +55,6 @@ public class MainActivityActivity extends AppCompatActivity implements Tab1.OnFr
                                            }
         );
     }
-
 
     @Override
     public void onFragmentInteraction(Uri uri) {

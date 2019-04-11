@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="7">
+
+    <TextView
+    android:id="@+id/txtID"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    android:textSize="16dp"
+        android:layout_weight="1"
+    />
+
+    <TextView
+        android:id="@+id/txtCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/txtMatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/txtNumberOfWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        />
+
+
+    <TextView
+        android:id="@+id/txtNumberOfLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/txtNRR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/txtPts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        />
+</LinearLayout>

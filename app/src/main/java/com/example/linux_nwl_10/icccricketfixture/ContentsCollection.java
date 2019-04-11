@@ -15,7 +15,6 @@ public class ContentsCollection {
         m.setFirstTeamImage(R.drawable.southafrica);
         m.setSecondTeamName("England");
         m.setSecondTeamImage(R.drawable.england);
-
         m.setMatchStartTime("Starts at 3:30PM (UTC+06:00)");
         listOfContents.add(m);
 
